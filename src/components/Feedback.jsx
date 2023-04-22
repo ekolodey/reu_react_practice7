@@ -89,6 +89,5 @@ export default function Feedback(){
                 <Button type="submit" className="btn w-auto" variant="outline-primary">Отправить</Button>
             </Form>
         </Container>
-        
     )
 }

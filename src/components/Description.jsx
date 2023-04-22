@@ -53,7 +53,7 @@ export default function Description(){
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9,rotate:180 }}
             >
-                Наведите курсор на кнопку
+                Наведите курсор на кнопку, нажмите на кнопку
             </motion.button>
 
 

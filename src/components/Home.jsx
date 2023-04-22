@@ -6,7 +6,11 @@ const Home = (props) => {
   return (
     <div>
         <Slider/>
-        <CardItem item={props.item}/>
+        <CardItem item={props.item}
+        overlayItems={props.overlayItems}
+        setOverlayItems={props.setOverlayItems}
+        favorites={props.favorites}
+        setFavorites={props.setFavorites}/>
     </div>
   )
 }

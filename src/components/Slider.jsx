@@ -16,6 +16,15 @@ const Slider = () => {
       <Carousel.Caption>
         <h3>First slide label</h3>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+         
+          <Link exact to={'/form'}>
+          <Button variant="primary">
+            Обратная связь 
+          </Button>
+          </Link>
+
+
+
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item interval={500}>
